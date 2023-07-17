@@ -24,7 +24,11 @@ Este endpoint devuelve una lista de los asteroides más cercanos a la Tierra en 
 
    ​	`MY_CONFIG={"hostname":"127.0.0.1","port":3000}`
 
-5. Inicia el servidor: `npm dev`
+5. Inicia el servidor:
+
+   Usando nodemon: `npm dev`
+
+   Usando watch: `npm native`
 
 6. El servidor estará escuchando en el puerto 3000. Puedes acceder a la API en `http://127.0.0.1:3000/asteroids`.
 
